@@ -1,0 +1,9 @@
+release
+bebug
+.vs
+.idea
+.vscode
+build
+.editorconfig
+cmake-build-debug
+cmake-build-release
