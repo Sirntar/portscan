@@ -14,6 +14,7 @@ Another features, I wanted to add in future are more advanced attack vectors
 and a little hidden from traffic monitoring on the server (which would slower down performance).
 
 ## Usage
+```
 usage: portscan <Ip address> <Ip mask> [-t <timeout in ms>]
                 [-f | --fast] [-p <from> <to>]
                 [-TCP] [-UDP] [-ALL] [-h | --help]
@@ -25,6 +26,7 @@ usage: portscan <Ip address> <Ip mask> [-t <timeout in ms>]
         Not recommended, but it's really fast.
         Anyway, you should probably set timeout to 5-10s,
         because the function is to fast
+```
 
 ## License
 I am publishing this program under the **MIT license**, 
