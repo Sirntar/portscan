@@ -4,8 +4,9 @@ project(portscan)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -static")
 
+set(CMAKE_BUILD_TYPE Release)
+
 set(PORTSCAN_HEADERS
-    src/async/AsyncCout.h
     src/async/ThreadPool.h
     src/net/IpAddress.h
     src/net/SubNet.h
